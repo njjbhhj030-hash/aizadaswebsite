@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Байланыш</title>
+    <link rel="stylesheet" type="text/css" href="stylesait.css">
+    <style>
+        /* Сайттын жалпы стили */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Байланыш бөлүмү */
+        .contact {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact h4 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Байланыш карталары үчүн грид стили */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 катар, 2 баған */
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Контакт карталарынын стили */
+        .contact-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-card img {
+            max-width: 50px;
+            margin-bottom: 15px;
+        }
+
+        .contact-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact-card p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Башкы бетке кайтуу үчүн линк */
+        .back-home {
+            display: block;
+            margin: 20px;
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a href="mir.html" class="back-home">Башкы бетке өтүү</a>
+    <section class="contact">
+        <h4>Байланыш үчүн</h4>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/phone.png" alt="Телефон">
+                <h3>Телефон</h3>
+                <a href="https://wa.me/996708097175" target="_blank">
+                    <p>+996 708 097 175</p>
+                </a>
+            </div>
+            <div class="contact-card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/new-post.png" alt="Почта">
+                <h3>Электрондук почта</h3>
+                <a href="mailto:njjbhhj030@gmail.com">
+                    <p>njjbhhj030@gmail.com</p>
+                </a>
+            </div>
+            <div class="contact-card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/instagram-new.png" alt="Instagram">
+                <h3>Instagram</h3>
+                <a href="https://www.instagram.com/saydildaevaa/" target="_blank">
+                    <p>@saydildaevaa</p>
+                </a>
+            </div>
+            <div class="contact-card">
+                <img src="https://img.icons8.com/ios-filled/100/000000/marker.png" alt="Адрес">
+                <h3>Адрес</h3>
+                <a href="https://www.google.com/maps/search/?api=1&query=Avicenna+10a,+Osh,+Kyrgyzstan" target="_blank">
+                    <p>Кыргызстан, Ош, Авиценна 10а</p>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

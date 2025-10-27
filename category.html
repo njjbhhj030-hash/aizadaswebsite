@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <title>Категориялар</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: darkorange ;
+            margin: 0;
+            padding: 0;
+        }
+
+        a.back-home {
+            display: inline-block;
+            margin: 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        a.back-home:hover {
+            background-color: green;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 40px;
+            color: #333;
+        }
+
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .category-card {
+            background-color: #E0FFFF;
+            border-radius: 15px;
+            width: 220px;
+            text-align: center;
+            padding: 30px 20px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .category-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+        }
+
+        .category-card h3 {
+            font-size: 20px;
+            margin: 15px 0 10px 0;
+            color: #222;
+        }
+
+        .category-card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .emoji {
+            font-size: 40px;
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="mir.html" class="back-home"> Башкы бетке өтүү</a>
+
+    <h2>Категориялар</h2>
+
+    <section class="categories">
+        <div class="category-card">
+            <span class="emoji">💻</span>
+            <a href="teh-cat.html"><h3>Технология жана Электроника</h3></a>
+            <p>Apple, Microsoft, Google, Intel, Samsung</p>
+        </div>
+
+        <div class="category-card">
+            <span class="emoji">🚗</span>
+            <a href="auto-cat.html"><h3>Автоөнөр жай</h3></a>
+            <p>Tesla, Toyota, Mercedes-Benz, BMW</p>
+        </div>
+
+        <div class="category-card">
+            <span class="emoji">👟</span>
+            <a href="sport-cat.html"><h3>Спорт кийимдер</h3></a>
+            <p>Nike, Adidas, Puma</p>
+        </div>
+
+        <div class="category-card">
+            <span class="emoji">👑</span>
+            <a href="lux-cat.html"><h3>Люкс мода</h3></a>
+            <p>Louis Vuitton, Gucci</p>
+        </div>
+
+        <div class="category-card">
+            <span class="emoji">👗</span>
+            <a href="tez-cat.html"><h3>Тез мода</h3></a>
+            <p>Zara, H&M</p>
+        </div>
+
+        <div class="category-card">
+            <span class="emoji">🎬</span>
+            <a href="med-cat.html"><h3>Медиа жана көңүл ачуу</h3></a>
+            <p>Disney, Netflix, Meta</p>
+        </div>
+
+        <div class="category-card">
+            <span class="emoji">🛒</span>
+            <a href="el-s-cat.html"><h3>Электрондук соода</h3></a>
+            <p>Amazon</p>
+        </div>
+
+        <div class="category-card">
+            <span class="emoji">🥤</span>
+            <a href="suu-cat.html"><h3>Суусундуктар</h3></a>
+            <p>Coca-Cola</p>
+        </div>
+    </section>
+
+</body>
+</html>
